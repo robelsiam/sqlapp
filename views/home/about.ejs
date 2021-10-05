@@ -1,0 +1,8 @@
+<%- include('../_partial/_header'); -%>
+<% if(locals.user){ %>
+        <h1>Welcome to the about page, <%= user.name %></h1>
+    <%} else{ %>
+        <h1>Welcome to the about page</h1>
+    <%}%>
+
+<%- include ('../_partial/_footer'); -%>
